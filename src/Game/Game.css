@@ -1,0 +1,32 @@
+.tic-tac-toe {
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    margin: 50px auto;
+  }
+.ttt-grid{
+    width: 50px;
+    height: 50px;
+    border: 1px solid black;
+    float: left;
+    box-sizing: border-box;
+  }
+  
+button{
+      margin: 10px auto;
+      height: 40px;
+      padding: 0 20px;
+      width: auto;
+      background: none;
+      font-size: 14px;
+      font-weight: 600;
+      line-height: 40px;
+      letter-spacing: 1px;
+      text-decoration: none;
+      text-transform: uppercase;
+      border: 1px solid green;
+  }
+.game {
+    height: 400px
+}
+  
