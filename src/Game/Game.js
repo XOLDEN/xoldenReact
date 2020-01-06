@@ -38,7 +38,7 @@ class Game extends React.Component {
   }
   isWinner = () => {
 
-    let s = (this.state.count % 2 === 0) ? this.state.choose1 : this.state.choose1;
+    let s = (this.state.count % 2 === 0) ? this.state.choose1 : this.state.choose2;
     for (let i = 0; i < 8; i++) {
       let line = this.winnerLine[i];
       if (this.state.squares[line[0]] === s
